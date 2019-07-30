@@ -102,7 +102,7 @@ SamsungAirco1.prototype = {
         var informationService = new Service.AccessoryInformation()
             .setCharacteristic(Characteristic.Manufacturer, 'Samsung')
             .setCharacteristic(Characteristic.Model, 'Air conditioner')
-            .setCharacteristic(Characteristic.SerialNumber, 'AF16K7970WFN');
+            .setCharacteristic(Characteristic.SerialNumber, 'AR06M5170HNQ');
 	    
 	    
         return [informationService, this.aircoSamsung];
